@@ -11,10 +11,14 @@
         background-color: Coral;
         font-family: helvetica, arial, sans-serif;
         color: Lime;
+        margin:0;
+        border: green 4px solid;
+        margin:0;
       }
       a{
         color: #FFFF00;
         text-decoration: none;
+        border: red 2px solid;
       }
       #gimmie_love{
         font-size:2em;
@@ -65,12 +69,30 @@
         color:#FFFFE0;
       }
 
+      h1{
+        text-align:center;
+        margin:1%;
+        border: purple 3px solid;
+      }
+
+      h2{
+        border: purple 3px solid;
+      }
       h3{
         color:	#00FFFF;
+        border: purple 3px solid;
+      }
+
+      p{
+        border: purple 3px solid;
       }
 
       img{
         width:100%;
+        border: lightpink 2px solid;
+        background: white;
+        margin: 1%;
+        padding: 2%;
       }
 
       #top{
@@ -78,18 +100,27 @@
         color:SkyBlue;
         font-family:aviano, serif;
         font-size:3em;
-
       }
-      .fifty{
-        width:400px;
+
+      ol{
+        padding: 2%;
+        margin: auto;
+        border: white 1px solid;
+        width: 80%;
       }
 
       .center{
-        width:500px;
+        <!-- width:100%;
         margin:auto;
-        display: block;
+        display: block; -->
       }
 
+      li{
+        border-bottom: white 2px solid;
+        padding: 5px;
+        width: 90%;
+        margin: auto;
+      }
 
 
 
@@ -100,7 +131,7 @@
     <div class="center">
     <h1 id="top">Tropical Wonders</h1>
     <h2>Kyle's Greatist Reggae Tracks</h2>
-    <ol>
+    <ol class="list-of-songs">
       <li><a href="#gimmie_love">"Gimmie Love" by Collie Buddz</a></li>
       <li><a href="#so_high">"So High" by Delus & Konshens</a></li>
       <li><a href="#oxygen">"Oxygen" by Dirty Heads</a></li>
@@ -113,7 +144,7 @@
       <li><a href="#two-am">"2am" by Slightly Stoopid</a></li>
     </ol>
 
-<img class="fifty"src="images/love.jpg" alt="Album cover of Collie Buddz"/>
+<img src="images/love.jpg" alt="Album cover of Collie Buddz"/>
 <!-- https://www.cancioneros.com/letras/cancion/782061/gimme-love-collie-buddz -->
 <h3 id="gimmie_love">"Gimmie Love" by Collie Buddz</h3>
 <p><b>Lyrics</b><br>
@@ -127,7 +158,7 @@
   An yuh see it sey mi luv har so<br>
 
 </p>
-<img class="fifty" src="images/so-high.jpg" alt="Album cover of So High"/>
+<img  src="images/so-high.jpg" alt="Album cover of So High"/>
 <!-- https://www.amazon.com/Modern-Revolution-Delus-Konshens/dp/B002JJCCH4 -->
 <h3 id="so_high">"So High" by Delus & Konshens</h3>
 <p><b>Lyrics</b><br>
@@ -141,7 +172,7 @@
   And H.I.M. no want no aggravation.<br>
 
 </p>
-<img class="fifty" src="images/dirty-heads.jpg" alt="Ablum cover for Dirty Heads"/>
+<img  src="images/dirty-heads.jpg" alt="Ablum cover for Dirty Heads"/>
 <!-- https://www.dirtyheads.com/music/ -->
 <h3 id="oxygen">"Oxygen" by Dirty Heads</h3>
 <p><b>Lyrics</b><br>
@@ -156,7 +187,7 @@
 
 </p>
 
-<img class="fifty" src="images/chronixx.jpg" alt="Album cover for Chronixx"/>
+<img src="images/chronixx.jpg" alt="Album cover for Chronixx"/>
 <!-- https://genius.com/Chronixx-skankin-sweet-lyrics -->
 <h3 id="shakin_sweet">"Shakin' Sweet" by Chronixx</h3>
 <p><b>Lyrics</b><br>
@@ -170,7 +201,7 @@
 
 </p>
 
-<img class="fifty" src="images/set-in-stone.jpg" alt="Ablum cover for Stick Figure"/>
+<img src="images/set-in-stone.jpg" alt="Ablum cover for Stick Figure"/>
 <!-- https://stickfigure.bandcamp.com/album/set-in-stone -->
 <h3 id="all_for_you">"All for You" by Stick Figure</h3>
 <p><b>Lyrics</b><br>
@@ -185,7 +216,7 @@
 
 </p>
 
-<img class="fifty" src="images/police.jpg" alt="Ablum cover for The Police"/>
+<img src="images/police.jpg" alt="Ablum cover for The Police"/>
 <!-- https://www.discogs.com/The-Police-Walking-On-The-Moon/release/982439 -->
 <h3 id="walking_on_the_moon">"Walking on the Moon" by The Police</h3>
 <p><b>Lyrics</b><br>
@@ -200,7 +231,7 @@
 
 </p>
 
-<img class="fifty" src="images/temperature.jpg" alt="Album cover for Sean Paul"/>
+<img src="images/temperature.jpg" alt="Album cover for Sean Paul"/>
 <!-- https://genius.com/Sean-paul-temperature-lyrics -->
 <h3 id="temperature">"Temperature" by Sean Paul</h3>
 <p><b>Lyrics</b><br>
@@ -215,7 +246,7 @@
 
 </p>
 
-<img class="fifty" src="images/rebelution.jpg" alt="Ablum cover for Rebelution"/>
+<img src="images/rebelution.jpg" alt="Ablum cover for Rebelution"/>
 <!-- https://www.shazam.com/track/55229898/closer-i-get -->
 <h3 id="sky_is_the_limit">"Sky is the Limit" by Rebelution</h3>
 <p><b>Lyrics</b><br>
@@ -230,7 +261,7 @@
 
 </p>
 
-<img class="fifty" src="images/jamrock.jpg" alt="Ablum cover Damian Marley"/>
+<img src="images/jamrock.jpg" alt="Ablum cover Damian Marley"/>
 <!-- https://pitchfork.com/reviews/albums/5664-welcome-to-jamrock/ -->
 <h3 id="welcome_to_jamrock">"Welcome to Jamrock" by Damian Marley</h3>
 <p><b>Lyrics</b><br>
@@ -245,7 +276,7 @@
 
 </p>
 
-<img class="fifty" src="images/two-am.jpg" alt="Album cover for Slightly Stoopid"/>
+<img src="images/two-am.jpg" alt="Album cover for Slightly Stoopid"/>
 <!-- https://genius.com/Slightly-stoopid-2am-annotated -->
 <h3 id="two-am">"2am" by Slightly Stoopid</h3>
 <p><b>Lyrics</b><br>
