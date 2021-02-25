@@ -1,0 +1,95 @@
+body {
+  background-color: Coral;
+  font-family: helvetica, arial, sans-serif;
+  color: Lime;
+  margin:0;
+}
+a{
+  color: #FFFF00;
+  text-decoration: none;
+}
+#gimmie_love{
+  font-size:2em;
+  color:#FFFFE0;
+}
+#so_high{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#oxygen{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#shakin_sweet{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#all_for_you{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#walking_on_the_moon{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#temperature{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#sky_is_the_limit{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+#two-am
+{
+  font-size:2em;
+  color:#FFFFE0;
+}
+#welcome_to_jamrock{
+  font-size:2em;
+  color:#FFFFE0;
+}
+
+h1{
+  text-align:center;
+  margin:1%;
+  color:	#00FFFF;
+}
+
+
+h3{
+  color:	#00FFFF;
+}
+
+img{
+  width:100%;
+  }
+#top{
+  text-align: center;
+  color:SkyBlue;
+  font-family:impact, serif;
+  font-size:3em;
+  }
+
+.center{
+  width:100%;
+  margin:auto;
+  display: block;
+}
+
+.cover{
+  background-image: url("images/coverart.jpg");
+  height: 400px;
+  background-position: center;
+  background-color: Cornsilk;
+  background-repeat: no-repeat;
+  background-size: cover;
+/* http://www.onemusicapi.com/artists/album-covers/Bob-Marley.html */
+}
