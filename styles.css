@@ -63,9 +63,12 @@ h1{
   color:	#00FFFF;
 }
 
-
+h2 {
+  text-align: center;
+}
 h3{
   color:	#00FFFF;
+  text-align: center;
 }
 
 img{
@@ -92,4 +95,10 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
 /* http://www.onemusicapi.com/artists/album-covers/Bob-Marley.html */
+}
+
+@media only screen and (min-width: 700px) {
+	 	img{
+      width: 500px;
+    }
 }
